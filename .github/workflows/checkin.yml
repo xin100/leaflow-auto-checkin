@@ -2,7 +2,7 @@ name: Leaflow Auto Checkin
 
 on:
   schedule:
-    - cron: '17 17 * * *' # 每天UTC时间17:17运行（北京时间01:17）
+    - cron: '21 17 * * *' # 每天UTC时间17:21运行（北京时间01:21）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
